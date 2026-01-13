@@ -1,0 +1,194 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "10604"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "128"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_day01_01"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+	solid
+	{
+		"id" "2"
+		side
+		{
+			"id" "1"
+			"plane" "(-7.41489 1081.31 128) (248.585 1081.31 128) (248.585 825.312 128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -34.3405] 0.25"
+			"vaxis" "[0 -1 0 -26.7512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-7.41489 825.312 -128) (248.585 825.312 -128) (248.585 1081.31 -128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -34.3405] 0.25"
+			"vaxis" "[0 -1 0 -26.7512] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-7.41489 1081.31 128) (-7.41489 825.312 128) (-7.41489 825.312 -128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 26.7512] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(248.585 1081.31 -128) (248.585 825.312 -128) (248.585 825.312 128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 26.7512] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(248.585 1081.31 128) (-7.41489 1081.31 128) (-7.41489 1081.31 -128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -34.3405] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(248.585 825.312 -128) (-7.41489 825.312 -128) (-7.41489 825.312 128)"
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -34.3405] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 197 118"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "3"
+		side
+		{
+			"id" "18"
+			"plane" "(-262.513 829.772 -124.651) (319.393 1613.57 -124.651) (903.362 1039.8 -131.353)"
+			"material" "BRICK/BRICKFLOOR001A"
+			"uaxis" "[0.649448 0.760406 0 -105.917] 0.25"
+			"vaxis" "[0.760406 -0.649448 -0.00872654 -368.038] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17"
+			"plane" "(320.607 256.835 -259.349) (902.513 1040.63 -259.349) (318.543 1614.4 -252.647)"
+			"material" "BRICK/BRICKFLOOR001A"
+			"uaxis" "[0.649448 0.760406 0 -105.917] 0.25"
+			"vaxis" "[0.760406 -0.649448 -0.00872654 -368.038] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16"
+			"plane" "(-262.513 829.772 -124.651) (321.457 256 -131.353) (320.607 256.835 -259.349)"
+			"material" "BRICK/BRICKFLOOR001A"
+			"uaxis" "[-0.713311 0.700854 0.00818606 368.038] 0.25"
+			"vaxis" "[-0.00663567 0.0065198 -1 -14.6908] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15"
+			"plane" "(318.543 1614.4 -252.647) (902.513 1040.63 -259.349) (903.362 1039.8 -131.353)"
+			"material" "BRICK/BRICKFLOOR001A"
+			"uaxis" "[-0.713311 0.700854 0.00818606 368.038] 0.25"
+			"vaxis" "[-0.00663567 0.0065198 -1 -14.6908] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14"
+			"plane" "(319.393 1613.57 -124.651) (-262.513 829.772 -124.651) (-263.362 830.606 -252.647)"
+			"material" "BRICK/BRICKFLOOR001A"
+			"uaxis" "[0.596097 0.802912 0 -105.917] 0.25"
+			"vaxis" "[-0.00663567 0.0065198 -1 -14.6908] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13"
+			"plane" "(902.513 1040.63 -259.349) (320.607 256.835 -259.349) (321.457 256 -131.353)"
+			"material" "BRICK/BRICKFLOOR001A"
+			"uaxis" "[0.596097 0.802912 0 -105.917] 0.25"
+			"vaxis" "[-0.00663567 0.0065198 -1 -14.6908] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 146 159"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+cameras
+{
+	"activecamera" "0"
+	camera
+	{
+		"position" "[554.419 1939.2 -16.2153]"
+		"look" "[962.197 928.416 -263.843]"
+	}
+}
+cordons
+{
+	"active" "0"
+}
